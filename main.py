@@ -1,3 +1,10 @@
+"""
+projekt_3.py: třetí projekt do Engeto Online Python Akademie
+
+author: Martin Mišo
+email: martin.miso@seznam.cz
+"""
+
 import csv
 import requests
 from bs4 import BeautifulSoup as bs
