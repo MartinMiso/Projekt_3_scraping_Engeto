@@ -161,7 +161,8 @@ def main():
     a ukládá do CSV souboru na základě argumentů zadaných při spuštění.
     """
     if len(sys.argv) != 3:
-        print("Použití: python <script.py (main.py)> <název_obce ('např. Olomouc')> <název_souboru.csv (např. 'vysledky_olomouc.csv')>")
+        print("Špatné zadání argumentů. Projdi README a vyber validní obec."
+              "Použití: python <script.py (main.py)> <název_obce ('např. Olomouc')> <název_souboru.csv (např. 'vysledky_olomouc.csv')>")
         sys.exit(1)
 
     # Načtení názvu města a názvu souboru z argumentů
