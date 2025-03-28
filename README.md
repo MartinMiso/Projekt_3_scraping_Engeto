@@ -20,6 +20,18 @@ Příklad použití:
 python main.py "Olomouc" "vysledky_olomouc.csv"
 Tento příkaz stáhne a uloží volební výsledky pro město Olomouc do souboru vysledky_olomouc.csv.
 
+#####################################################################
+
+Konkrétní případ tří obcí z odkazů
+----------------------------------
+Rokycany - https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=4&xnumnuts=3206 - > python main.py Rokycany vysedky_rokycany.csv
+Břeclav - https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6204 - > python main.py Břeclav vysledky_breclav.csv
+Jeseník - https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7101 - > python main.py Jeseník vysledky_jesenik.csv
+
+#####################################################################
+
+
+
 Vstupní data
 Skript pracuje s daty ze stránek volby.cz, konkrétně z této URL:
 https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ
